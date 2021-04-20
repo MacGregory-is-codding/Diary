@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .start-work {
@@ -18,7 +19,42 @@
     color: #0A1C2B;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 20px;
+    border: none;
+    background-color: inherit;
+}
+
+/*
+    ### MAIN SECTION ###
+*/
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.signin-section, .signup-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0A1C2B;
+}
+
+.section-description {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.start-button {
+    border: 2px solid #0A1C2B;
+    border-radius: 15px;
+    transition: .3s;
+}
+
+.start-button:hover {
+    color: #FFF;
+    background-color: #0A1C2B;
 }
 
 
@@ -34,6 +70,7 @@
     position: relative;
     text-decoration: none;
     color: #0A1C2B;
+    padding-bottom: 3px;
 }
 
 .link:before {
