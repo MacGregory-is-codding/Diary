@@ -1,0 +1,72 @@
+/*
+    ### HEADER SECTION ###
+*/
+
+.header {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.start-work {
+    display: flex;
+}
+
+.button {
+    padding: 10px;
+    color: #0A1C2B;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+
+
+/*
+
+    ### LINKS ###
+
+*/
+
+
+.link {
+    animation: .3s;
+    position: relative;
+    text-decoration: none;
+    color: #0A1C2B;
+}
+
+.link:before {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0;
+    background: #0A1C2B;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+    left: 50%;
+    bottom: 0;
+}
+
+.link:after {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: #0A1C2B;
+    transition: width 0.3s ease-in-out;
+    left: 50%;
+    bottom: 0;
+}
+
+.link:hover:before {
+    width: 50%;
+    left: 0;
+    opacity: 0.9;
+}
+
+.link:hover:after {
+    width: 50%;
+    opacity: 0.9;
+}
