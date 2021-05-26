@@ -5,89 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diary</title>
-    <link rel="stylesheet" href="assets/css/libs/normalize.css">
+    <link rel="stylesheet" href="assets/libs/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="#">
-                <img src="assets/img/logo.png" alt="logo">
-            </a>
-        </div>
-
-        <div class="start-work">
-            <div class="button signin-button">
-                <a href="#" class="link">
-                    Sign in
-                </a>
-            </div>
-
-            <div class="button signup-button">
-                <a href="#" class="link">
-                    Sign up
-                </a>
-            </div>
-        </div>
-    </header>
+    
+    <?php include 'header.php';?>
 
     <main>
-        <section class="flex-container">
-            <section class="signin-section">
-                <div class="section-header">
+        <section class="home">
+            <section class="home__signin-section">
+                <div class="signin-section__header">
                     <h2>Start new diary &#128522;</h2>
                 </div>
 
-                <div class="section-description">
-                    Having an own diary is fun! Just try it!
+                <div class="signin-section__description">
+                    <span>Having an own diary is fun! Just try it!</span>    
                 </div>
 
                 <div>
-                    <input type="button" value="Let's go!" class="button start-button">
+                    <input type="button" value="Let's go!" class="signin-section__button signin-section__start-button">
                 </div>
             </section>
-            <section class="signup-section">
-                <div class="section-header">
+
+            <section class="home__signup-section">
+                <div class="signin-section__header">
                     <h2>I have one already &#128524;</h2>
                 </div>
 
-                <div class="section-description">
-                    Continue to write your dreams and feelings!
+                <div class="signin-section__description">
+                    <span>Continue to write your dreams and feelings!</span>
                 </div>
 
                 <div>
-                    <input type="button" value="Let's go!" class="button start-button">
+                    <input type="button" value="Let's go!" class="signin-section__button signin-section__start-button">
                 </div>
             </section>
         </section>   
     </main>
 
-    <footer class="footer">
-        <div class="info">
-            <div class="author">
-                Created by Andrii Skorokhod
-            </div>
+    <?php include 'footer.php';?>
     
-            <div class="contacts">
-                <div class="contact">
-                    <a href="https://github.com/MacGregory-is-codding/" target="_blank">
-                        <img src="assets/img/linkedin.png" alt="LinkedIn" width="20px" height="20px">
-                    </a>
-                </div>
-    
-                <div class="contact">
-                    <a href="https://github.com/MacGregory-is-codding/" target="_blank">
-                        <img src="assets/img/github.png" alt="GitHub" width="25px" height="25px">
-                    </a>
-                </div>
-                
-                <div class="contact">
-                    <a href="https://github.com/MacGregory-is-codding/" target="_blank">
-                        <img src="assets/img/mail.png" alt="Mail" width="25px" height="25px">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
