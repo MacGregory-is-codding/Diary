@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +25,9 @@
                 </div>
 
                 <div>
-                    <input type="button" value="Let's go!" class="signin-section__button signin-section__start-button">
+                    <a href="signin.php">
+                        <input type="button" value="Let's go!" class="signin-section__button signin-section__start-button">
+                    </a>
                 </div>
             </section>
 
@@ -40,7 +41,9 @@
                 </div>
 
                 <div>
-                    <input type="button" value="Let's go!" class="signin-section__button signin-section__start-button">
+                    <a href="signup.php">
+                        <input type="button" value="Let's go!" class="signin-section__button signin-section__start-button">
+                    </a>
                 </div>
             </section>
         </section>   

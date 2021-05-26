@@ -6,7 +6,7 @@
 
         <div class="footer__about-contacts">
             <div class="footer__about-contact">
-                <a href="https://github.com/MacGregory-is-codding/" target="_blank">
+                <a href="https://www.linkedin.com/in/andrii-skorokhod-585663208/" target="_blank">
                     <img src="assets/img/linkedin.png" alt="LinkedIn" width="20px" height="20px">
                 </a>
             </div>
@@ -18,7 +18,7 @@
             </div>
             
             <div class="footer__about-contact">
-                <a href="https://github.com/MacGregory-is-codding/" target="_blank">
+                <a href="mailto:andrey.skorochod@gmail.com" target="_blank">
                     <img src="assets/img/mail.png" alt="Mail" width="25px" height="25px">
                 </a>
             </div>
